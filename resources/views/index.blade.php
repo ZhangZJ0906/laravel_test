@@ -6,6 +6,6 @@
     <title>index</title>
 </head>
 <body>
-   
+   <nav></nav>
 </body>
 </html>
