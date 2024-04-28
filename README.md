@@ -68,3 +68,17 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 =======
 # laravel_test
 >>>>>>> 1c792b935d02df9c656e8a708295b814ed8f3503
+
+
+# 安裝
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install && npm run dev
+php artisan migrate
+
+composer require spatie/laravel-permission
+
+
+## 发布迁移文件和配置文件：
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+php artisan migrate
