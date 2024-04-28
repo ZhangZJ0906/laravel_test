@@ -5,9 +5,23 @@
 .shope_logo {
     width: 60px;
     margin: 0 200px 0 335px;
-    
+
 }
 
-.down{
-    
+
+
+#login  {
+    margin: 0 0 0 20px;
+    width: 73.2px;
+    height: 38px;
+    border-radius: 35px;
+}
+#login:hover  {
+    background-color: black;
+    color: aliceblue;
+}
+#search  {
+    width: 73.2px;
+    height: 38px;
+    border-radius: 35px;
 }

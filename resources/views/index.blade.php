@@ -23,12 +23,10 @@
 
     <form class="form-inline my-2 my-lg-0">
       <input id="search_border" class="form-control mr-sm-2"  placeholder="遇到問題了？輸入關鍵字搜搜看＼（〇_ｏ）／" >
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button  id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
     <div class="login">
-    <button  onclick="redirectToRoute('login')" >Login</button>
-        
-
+    <button id='login' onclick="redirectToRoute('login')" >Login</button>
     </div>
   
   </nav>
