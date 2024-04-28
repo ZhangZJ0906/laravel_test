@@ -2,8 +2,12 @@
     width: 800px;
 }
 
-#shope {
-    width: 120px;
-    height: 120px;
-    margin: 0 50px 0 335px;
+.shope_logo {
+    width: 60px;
+    margin: 0 200px 0 335px;
+    
+}
+
+.down{
+    
 }
